@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 User.destroy_all
 Quiz.destroy_all
-require 'rest-client'
+# require 'rest-client'
 
 30.times do 
     User.create({
